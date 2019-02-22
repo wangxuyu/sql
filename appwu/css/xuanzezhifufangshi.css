@@ -1,0 +1,103 @@
+body{
+    position: fixed;
+}
+.zhe{
+    width: 100%;
+    height:15.15rem;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    z-index:1;
+}
+.xzzf{
+    height: 9rem;
+    width:100%;
+    position: absolute;
+   bottom: 0;
+    background: #fff;
+    z-index: 999;
+    padding:1.15rem 0;
+    box-sizing: border-box;
+}
+.dyh{
+    width:100%;
+    height: 0.3rem;
+    padding:0 0.7rem;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #fb8ca1;
+    line-height: 0.3rem;
+   }
+.dyh img{
+    width:0.15rem;
+    height: 0.29rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+}
+.deh{
+    width: 100%;
+    font-size: 0.24rem;
+    color:rgba(0,0,0,0.8);
+    margin-top: 0.72rem;
+    text-align: center;
+}
+.dsbf{
+    height: 5.6rem;
+    padding:0 0.24rem;
+    margin-top: 0.4rem;
+}
+
+.zfitem{
+    width:100%;
+    height: 0.85rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.1);
+    position: relative;
+    }
+.zuicenter{
+    width:2.2rem;
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    margin:auto;
+    display: flex;
+}
+.teshu{
+    position: absolute;
+}
+.sekuai{
+    width: 0.45rem;
+    height: 0.1rem;
+    margin: auto 0;
+    }
+.yiyiyi{
+    background: #fbbe3a;
+    margin-right: 0.3rem;
+  }
+.zfzi{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+    margin: auto 0;
+}
+.teshu i{
+    font-size: 0.26rem;
+    position: absolute;
+    top:0.3rem;
+    right:-0.5rem;
+}
+.ererer{
+    background: #3afb95;
+    margin-right: 0.3rem;
+}
+.sansansan{
+    background: #3a83fb;
+    margin-right: 0.3rem;
+}
+.sisisi{
+    background:#b93afb;
+    margin-right: 0.3rem;
+}
+.wuwuwu{
+    background: #fb3a55;
+    margin-right: 0.3rem;
+}
