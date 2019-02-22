@@ -1,0 +1,153 @@
+.roll{
+    margin-top:79px;
+}
+/*导航开始*/
+.huayinav a{
+    text-decoration: none;
+}
+.huayinav{
+    width: 100%;
+    height: 79px;
+    background:#fff;
+    position:fixed;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.nav-zj{
+    width: 1170px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.huayi-quanbu{
+    width: 800px;
+    height: 100%;
+    /*background: skyblue;*/
+    float: right;
+}
+.huayi-nav-item{
+    width: 100%;
+    height: 100%;
+    /*background: purple;*/
+    line-height: 79px;
+    font-size: 18px;
+    float: right;
+}
+.huayi-nav-item-ji{
+    float: right;
+    margin-left: 30px;
+}
+.huayi-nav-zi-yi{
+    color: #16b0dc;
+}
+.huayi-nav-zi-er{
+    display: block;
+    color: #000;
+}
+.huayi-nav-item-ji a:hover{
+    color: #16b0dc;
+}
+/*导航结束*/
+/*图片部分开始*/
+.zuiwaimian{
+    width:100%;
+    height:1420px;
+}
+.dabox{
+    width:50%;
+    height:710px;
+    position: relative;
+    transition:all 0.6s ease;
+    transform-origin: 0 0;
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image:url("suxinhuayi/yi.jpg");
+ }
+.iyi{
+    background-image:url("suxinhuayi/er.jpg");
+}
+.ier{
+    background-image:url("suxinhuayi/si.jpg");
+}
+.isan{
+    background-image:url("suxinhuayi/wu.jpg");
+}
+.dabox:hover{
+    background-size: 105% 105%;
+}
+.dabox:hover .tupianeryi{
+    transform: scale(1.1);
+}
+.dabox:hover .zhe{
+    background:rgba(0,0,0,0.5);
+}
+.tupianeryi{
+    width: 100%;
+    height: 100%;
+}
+.tuyibox{
+    width:100%;
+    height:100%;
+    color:rgba(0,0,0,0.8);
+}
+.zhe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.2);
+}
+.yizhongjian{
+    width: 120px;
+    height: 142px;
+    position:absolute;
+    top:calc(50% - 60px);
+    left:calc(50% - 71px);
+    color:rgba(255,255,255,0.6);
+}
+.shijian{
+    height: 22px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+}
+.gang{
+    height: 36px;
+    text-align: center;
+    font-weight:500;
+    font-size: 24px;
+    line-height: 40px;
+}
+h3{
+    height: 28px;
+    margin-bottom:16px;
+    text-align: center;
+ }
+.anniu{
+    width:64px;
+    height: 38px;
+    font-size: 14px;
+    padding:6px 15px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.6);
+    margin: 0 auto;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    line-height: 27px;
+}
+.dabox:hover .yizhongjian{
+    color: #fff;
+}
+.dabox:hover .anniu{
+    border: 1px solid #fff;
+}
+.anniu:hover{
+    background: #fff;
+    color:#b0b0b0;
+}
+/*图片部分结束*/
