@@ -1,0 +1,6 @@
+.roll{
+    padding-bottom:1.47rem;
+}
+.footbox{
+    position:fixed;bottom:0;z-index:999;
+}
