@@ -118,6 +118,10 @@
     line-height: 0;
         }
 .zhongjianzi{
+    width: 2rem;
+    height: 100%;
+    text-align: center;
+    background: green;
     font-size: 0.28rem;
     color: #fff;
     line-height:0.44rem;

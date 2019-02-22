@@ -149,7 +149,7 @@ body{
     color: #f8cd33;
 }
 .sier{
-    width:75%;
+
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -159,7 +159,7 @@ body{
     box-sizing: border-box;
     height: 0.3rem;
      }
-.four img{
+.sier img{
     width: 0.22rem;
     height: 0.12rem;
 }
