@@ -107,7 +107,7 @@ body{
    }
 .fenyuandian{
     font-size:0.6rem;
-    line-height: 0.4rem;
+    line-height: 0.44rem;
     color: #fb8ca1;
     margin-right: 0.07rem;
 }
@@ -121,6 +121,7 @@ input{
     width:2.6rem;
     height: 100%;
     background: none;
+    line-height: 0.26rem;
 }
 input:focus{
     outline: none;

@@ -157,6 +157,7 @@ body{
 .image{
     padding: 0.14rem 0 0.04rem;
     box-sizing: border-box;
+    height: 0.3rem;
      }
 .four img{
     width: 0.22rem;
