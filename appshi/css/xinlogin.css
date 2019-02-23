@@ -99,29 +99,37 @@
    /* position: absolute;
     bottom:4.03rem;*/
     width: 100%;
-
     margin: 0 auto;
-    background: red;
-           }
+    padding-right:0.2rem;
+    box-sizing: border-box;
+}
 .eee{
     width: 50%;
     height:100%;
-    background: yellow;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 .e{
-    font-size: 1rem;
-    margin: auto 0;
-    color: #fb8ca1;
-    line-height: 0;
-        }
+    position: relative;
+}
+.yuanyuandian{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: #fb8ca1;
+}
+.dianer{
+    background:rgba(251,140,161,0.6);
+}
 .zhongjianzi{
-    width: 2rem;
+    width: 1.6rem;
     height: 100%;
     text-align: center;
-    background: green;
     font-size: 0.28rem;
     color: #fff;
     line-height:0.44rem;
@@ -133,7 +141,7 @@
     padding: 0 1.75rem;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
    /* position: absolute;
     bottom:2.6rem;*/
     margin: 0 auto;
@@ -149,7 +157,7 @@
     height: 0.27rem;
     margin: auto 0;
 }
-.zhuceanniu{
-    background: #fb8ca1;
+.hh{
+    background:#fb8ca1;
 }
 /*2结束*/

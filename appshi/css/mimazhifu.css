@@ -115,6 +115,7 @@ body{
     height:0.1rem;
     background: #fb8ca1;
     border-radius: 0.05rem;
+
 }
 .shuxian{
     width: 0.02rem;
@@ -167,13 +168,13 @@ body{
     width:33.1%;
     height:100%;
     background: #fff;
-      }
+       }
 .pp{
     display: block;
     text-align: center;
     font-size: 0.54rem;
     line-height:0.9rem;
-}
+  }
 .ayaya{
     display: flex;
     flex-direction: column;
