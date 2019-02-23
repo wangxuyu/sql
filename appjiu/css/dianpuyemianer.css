@@ -1,0 +1,56 @@
+.rolll{
+    padding-bottom:1.47rem;
+}
+.footbox{
+    position:fixed;bottom:0;z-index:999;
+}
+/*底部开始*/
+.jiesuaner {
+    width: 1.3rem;
+    height: 0.42rem;
+    background: #fb8ca1;
+    border-radius: 0.21rem;
+    opacity: 0.6;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.38rem;
+}
+.jine{
+    color: #f8cd33;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size:0.18rem;
+   }
+.jianshu{
+    position: absolute;
+    top: 0.35rem;
+    left: 1.05rem;
+    width:0.27rem;
+    height:0.27rem;
+    background-color: #fb7790;
+    color:#fefefe;
+    font-size: 0.18rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.27rem;
+}
+/*底部结束*/
+/*商品部分开始*/
+.jianshao{
+    height: 0.37rem;
+    position: absolute;
+    left:2.88rem;
+    bottom:0;
+}
+.jige{
+    font-size: 0.24rem;
+    color: #f8cd33;
+    position: absolute;
+    bottom: 0.02rem;
+    right:0.48rem;
+}
+/*商品部分结束*/
+.shuxue{
+    width: 2rem;
+    background: red;
+}
