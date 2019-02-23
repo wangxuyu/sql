@@ -1,0 +1,149 @@
+
+/*中上部分开始*/
+.zhongshangbox{
+    width: 100%;
+    height:52px;
+    background: #f86867;
+}
+.neibu{
+    width: 1310px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    line-height: 52px;
+    }
+.lianjie{
+    width:224px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.lianjie a{
+    color: #ffffff;
+    display: block;
+}
+.neibu a:hover{
+    color: rgba(0,0,0,0.6);
+}
+.quanbu{
+    width: 60px;
+    height: 52px;
+}
+.tjly{
+    width: 92px;
+    height: 52px;
+}
+.ckly{
+    width: 92px;
+    height: 52px;
+}
+/*中上部分结束*/
+/*中下部分开始*/
+.sectiontwo{
+    height: 700px;
+    width: 100%;
+    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.sectiontwoyi{
+    font-size: 30px;
+    margin-bottom: 12px;
+    color: #37474f;
+    height: 36px;
+    line-height: 36px;
+}
+.sectiontwotwo{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectiontwotwo a{
+    display: block;
+    height: 22px;
+    color: #62a8ea;
+    font-size: 14px;
+}
+.sectiontwotwo a:hover{
+    text-decoration: underline;
+    color: skyblue;
+}
+.sectiontwothree{
+    height: 42px;
+    margin: 22px 0 12px;
+    color: #37474f;
+    font-size: 36px;
+}
+.sectiontwofour{
+    display: flex;
+    height: 24px;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.sectiontwofour a{
+    display: block;
+    height: 21px;
+    margin: auto 0;
+    color: #62a8ea;
+}
+.sectiontwofour a:hover{
+    text-decoration: underline;
+    color: skyblue;
+}
+.xiaoyuhao{
+    margin: auto 0;
+    height: 21px;
+}
+/*框开始*/
+.hehe{
+    width: 100%;
+    height:464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.haha{
+    height:54px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.inputtop{
+    height: 24px;
+    line-height: 24px;
+}
+#on{
+    width: 197px;
+    height: 30px;
+    border-radius: 0;
+    border:1px solid rgba(0,0,0,0.3);
+}
+.jianyijianyi{
+    height:78px;
+}
+.jianyidi{
+    height: 54px;
+    width: 197px;
+    border:1px solid rgba(0,0,0,0.3);
+}
+.wojiao{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.yanzhengmaimg{
+    width:80px;
+    padding:5px 0;
+    box-sizing: border-box;
+}
+#off{
+    width:80px;
+    height:30px;
+}
+/*框结束*/
+/*中下部分结束*/
+
+

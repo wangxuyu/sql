@@ -1,0 +1,240 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:#3a83fb;
+}
+/*中间环节开始*/
+.sectioner{
+    width: 100%;
+    height:2073px;
+    background: #f2f2f2;
+    padding:30px 0;
+    box-sizing: border-box;
+}
+.baoguo{
+    width: 1205px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.baoguoleft{
+    width:877px;
+    height: 100%;
+    padding:0 30px;
+    box-sizing: border-box;
+    background:#ffffff;
+}
+.bgleftitem{
+    width:817px;
+    height:220px;
+    padding:30px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e4eaec;
+}
+.t{
+    height: 237px;
+}
+.y{
+    height:261px;
+}
+.leftimg{
+    width: 160px;
+    height: 160px;
+}
+.leftimg img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.tuyou{
+    width: 637px;
+    height:160px;
+}
+.timu{
+    width: 100%;
+    height: 46px;
+   }
+.timumu{
+    font-size: 22px;
+    color: #37474f;
+    font-weight: 400;
+}
+.xiangxineirong{
+    width: 100%;
+    min-height:10px;
+    margin-bottom: 10px;
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.guankan{
+    width: 100%;
+    height:21px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #a3afb7;
+    display: flex;
+    justify-content: space-between;
+}
+.zhang{
+    flex-grow: 1;
+}
+.zuihouyige{
+    width: 100%;
+    height: 80px;
+    padding:20px 276px;
+    box-sizing: border-box;
+}
+.hexin{
+    width: 265px;
+    height: 40px;
+    background:#ffffff;
+    border: 1px solid #e4eaec;
+    text-align: center;
+    line-height: 40px;
+    color:#76838f;
+    font-size: 14px;
+    display: flex;
+}
+.shangyiye{
+    width: 74px;
+    height: 40px;
+    color: #ccd5db ;
+}
+.diyi{
+    width: 46px;
+    background: #f86867;
+    color: #fff;
+}
+.dier{
+    width: 46px;
+    cursor: pointer;
+}
+.dier:hover{
+    background: #f2f4f4;
+}
+.disan{
+    width: 46px;
+    cursor: pointer;
+}
+.disan:hover{
+    background:#f2f4f4;
+}
+.xiayiye{
+    width: 74px;
+    cursor: pointer;
+}
+.xiayiye:hover{
+    background: #f2f4f4;
+}
+.rrr{
+    border-left: 1px solid #e4eaec;
+}
+.baoguoright{
+    width: 298px;
+    height: 365px;
+    background:#fff;
+    padding:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sousuobox{
+    width: 100%;
+    height: 36px;
+    position: relative;
+}
+.sousuobox i{
+    position: absolute;
+    top: 2px;
+    right: 14px;
+}
+input{
+    width: 256px;
+    height:35px;
+    border: 1px solid #e4eaec;
+    border-radius:18px;
+    padding:0 15px;
+    box-sizing: border-box;
+}
+input:focus{
+    border: 1px solid #3a83fb;
+    outline: none;
+}
+::placeholder{
+    background: none;
+    font-size: 14px;
+    color: #76838f;
+}
+.sousuobox i{
+    font-size: 17px;
+    margin-left:20px;
+    line-height: 34px;
+}
+.tuijianbox{
+    width: 100%;
+    height:215px;
+    padding:20px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #e4eaec;
+    border-bottom: 1px solid #e4eaec;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.weinintuijian{
+    width: 100%;
+    height:21px;
+    line-height: 21px;
+    font-size: 18px;
+    font-weight: 300;
+    color:#37474f;
+    margin-bottom: 12px;
+}
+.tuijianxia{
+   height: 138px;
+    width: 100%;
+    border:1px solid #e4eaec;
+}
+.tuijianitem {
+    width: 100%;
+    height: 46px;
+    font-size: 15px;
+    padding: 11px 15px;
+    box-sizing: border-box;
+}
+.tuijianyi{
+    border-bottom: 1px solid #e4eaec;
+}
+.tuijianer{
+    border-bottom: 1px solid #e4eaec;
+}
+.tuijianitem a{
+    color: #2a333c;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #3a83fb;
+}
+.suoyouwenzhang{
+    width: 100%;
+    height: 30px;
+}
+.suoyouwenzhang a{
+    color: #2a333c;
+    text-decoration: none;
+}
+.aaaaaa:hover{
+    text-decoration: underline;
+    color:#3a83bf;
+}
+/*中间环节结束*/
