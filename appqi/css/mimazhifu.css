@@ -1,0 +1,212 @@
+body{
+    width: 100%;
+    height:100%;
+    position: fixed;
+}
+.zuiwaimian{
+    z-index:999;
+    background:rgba(0,0,0,0.4);
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+/*中间支付开始*/
+.zhifubox{
+    z-index:999;
+    position: absolute;
+    top:calc(30% - 1rem);
+    left:calc(50% - 2.7rem);
+    width: 5.4rem;
+    height: 4.35rem;
+    background:#fff;
+    border-radius: 0.1rem;
+    padding-bottom: 0.24rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.zfdb{
+    width:4.92rem;
+    height:1rem;
+    font-size:0.3rem;
+    color: #fb8ca1;
+    text-align: center;
+    line-height: 0.94rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.1);
+    position: relative;
+    margin: 0 auto;
+}
+.zfdb img{
+    position: absolute;
+    top: 0.32rem;
+    left: 0.26rem;
+    width:0.15rem;
+    height: 0.29rem;
+}
+.rmb {
+    width: 100%;
+    height:0.9rem;
+    font-size: 0.28rem;
+    color: #fb8ca1;
+    text-align: center;
+    line-height: 1rem;
+   }
+.zffs{
+    width:4.92rem;
+    height: 0.62rem;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.1);
+    position: relative;
+    margin: 0 auto;
+}
+.zhifutouxiang{
+    width: 0.25rem;
+    position: absolute;
+    left:1.36rem;
+}
+.zffs span{
+    font-size:0.22rem;
+    color: #000000;
+    opacity: 0.8;
+    position: absolute;
+    left: 1.69rem;
+    line-height: 0.2rem;
+}
+.chakan{
+    position: absolute;
+    right:0.4rem;
+    top: 0.03rem;
+    width: 0.11rem;
+    display: block;
+}
+.srmm{
+    height:1.5rem;
+    width: 100%;
+    padding:0.4rem 0.28rem;
+    box-sizing: border-box;
+}
+.zai{
+    display: flex;
+    justify-content: space-between;
+    width:4.9rem;
+    height: 0.5rem;
+    }
+.dange{
+    width: 0.5rem;
+    height: 0.36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.yuandian{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+.jian{
+    width:0.5rem;
+    height:0.1rem;
+    background: #e5e2e2;
+    border-radius: 0.05rem;
+}
+.jianfen{
+    width:0.5rem;
+    height:0.1rem;
+    background: #fb8ca1;
+    border-radius: 0.05rem;
+
+}
+.shuxian{
+    width: 0.02rem;
+    height: 0.2rem;
+    background: #000;
+    border-radius: 0.02rem;
+    margin: 0 auto;
+}
+.wjmm{
+    height: 0.2rem;
+    display:flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom:0.2rem;
+    right: 0.18rem;
+    width:3rem;
+}
+.wenzi{
+    font-size: 0.2rem;
+    margin-left: 0.1rem;
+    color: rgba(0,0,0,0.8);
+    line-height: 0.19rem;
+}
+.wjmm img{
+    width:0.2rem;
+    height: 0.2rem;
+}
+/*中间支付结束*/
+/*键盘开始*/
+.jianpanbox{
+    width:100%;
+    height: 5.13rem;
+    /*background: red;*/
+    position: absolute;
+    bottom:0;
+    z-index: 999;
+    margin: 0 auto;
+    background: #c0c3c6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.jpdiyihang{
+    width: 100%;
+    height:24.67%;
+    display: flex;
+    justify-content:space-between;
+}
+.jpyi{
+    width:33.1%;
+    height:100%;
+    background: #fff;
+       }
+.pp{
+    display: block;
+    text-align: center;
+    font-size: 0.54rem;
+    line-height:0.9rem;
+  }
+.ayaya{
+    display: flex;
+    flex-direction: column;
+}
+.shuzi{
+    text-align: center;
+    font-size: 0.54rem;
+    line-height:0.9rem;
+    margin-bottom:-0.08rem;
+}
+.yingwen{
+    font-size: 0.2rem;
+    margin: 0 auto;
+    color: rgba(0,0,0,0.8);
+}
+.si span{
+    margin:0 0.02rem 0 0.03rem;
+    line-height:1.255rem;
+  }
+.si{
+    width:100%;
+    /*height:1.17rem;*/
+    /*margin-top: 0.02rem;*/
+}
+.qq{
+    background:#c0c3c6;
+    padding: 0 0.86rem;
+    width: 33%;
+    box-sizing: border-box;
+}
+.qq i{
+    font-size: 0.6rem;
+    line-height: 1.3rem;
+  }
+/*键盘结束*/
